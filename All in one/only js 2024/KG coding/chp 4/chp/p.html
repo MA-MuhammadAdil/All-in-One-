@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.first{
+    width: 100px;
+    background-color: aqua;
+    border-radius: 30px;
+}
+
+body{
+    text-align: center;
+}
+</style>
+<body>
+
+
+<bUtton  class="first" onclick="
+    
+    card = card +1
+document.querySelector('#main').innerText = `Your has ${card} item`
+    
+    ">Add 1</bUtton>
+
+
+
+<bUtton  class="first" onclick="
+    
+    card = card -1
+document.querySelector('#main').innerText = `Your has ${card} item`
+    
+    ">Remove 1</bUtton>
+
+
+
+<bUtton  class="first" onclick="
+    
+    card = card +2
+document.querySelector('#main').innerText = `Your has ${card} item`
+    
+    ">Add 2</bUtton>
+
+
+
+<h1 id="main"></h1>
+
+    
+
+<script>
+let card = 0;
+
+document.querySelector('#main').innerText = `Your has ${card} item`
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+ 
+ body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+ }
+
+ #main-calculator{
+
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 5px;
+ }
+ #dispaly{
+    margin: 10px ;
+    width: 85%;
+ }
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ .button{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+ }
